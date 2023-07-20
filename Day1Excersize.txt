@@ -1,0 +1,152 @@
+1.Byte using inside main method
+---------------------------------------------------------------
+INPUT:
+******
+
+class Tasks{
+	public static void main(String args[])
+	{
+	byte a = 12,b = 7;
+	System.out.println("Add Two Numbers");
+	System.out.println(a+b);
+	}
+	}
+
+OUTPUT:
+*******
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>javac Tasks.java
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>java Tasks
+Add Two Numbers
+19
+
+------------------------------------------------------------------
+2. Short subtract using static keyword.
+
+INPUT:
+******
+
+class Tasks{
+	public static void main(String args[])
+	{
+	short a = 132 , b = 247;
+	short c = (short) (a - b);
+	System.out.println("subtract Two Numbers");
+	System.out.println(c);
+	}
+	}
+
+OUTPUT:
+*******
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>javac Tasks.java
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>java Tasks
+subtract Two Numbers
+-115
+
+-----------------------------------------------------------------------
+
+3. integer by creating object method.
+
+INPUT:
+******
+
+class Tasks{
+	int a=10,b=20;
+	public static void main(String args[])
+	{
+	Tasks object = new Tasks();
+	int c = object.a * object.b;
+	//System.out.println("Multiplied Two Numbers");
+	System.out.println(c);
+	}
+	}
+
+OUTPUT:
+*******
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>javac Tasks.java
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>java Tasks
+200
+
+-----------------------------------------------------------------------------
+4. Double using to inside main
+
+INPUT:
+******
+
+class Tasks{
+	public static void main(String args[])
+	{
+	double i = 9725800500d, j = 9725667650d;
+	double k = i-j;
+	System.out.println("subtract two numbers");
+	System.out.println(k);
+	}
+	}
+
+OUTPUT:
+*******
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>javac Tasks.java
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>java Tasks
+subtract two numbers
+132850.0
+
+------------------------------------------------------------------------------------
+
+5. Float using outside main to creating objects
+
+INPUT:
+******
+
+class Tasks{
+	float x=350f,y=150f;
+	public static void main(String args[])
+	{
+	Tasks object = new Tasks();
+	float z = object.x / object.y;
+	//System.out.println("Devisible Two Numbers");
+	System.out.println(z);
+	}
+	}
+
+OUTPUT:
+*******
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>javac Tasks.java
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>java Tasks
+2.3333333
+
+------------------------------------------------------------------------------------------
+
+6. Long using to create inside the main.
+
+INPUT:
+******
+
+class Tasks{
+	public static void main(String args[])
+	{
+	long b = 979463462980l, c = 846394748950l;
+	long a = b + c;
+	System.out.println("Adding two numbers");
+	System.out.println(a);
+	}
+	}
+
+OUTPUT:
+*******
+
+C:\Users\bhara\OneDrive\Documents\KGM\java\JAVA-TASK>java Tasks
+Adding two numbers
+1825858211930
+
+------------------------------------------------------------------------------------------
+
+
